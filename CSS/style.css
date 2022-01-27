@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-image: url('../images/bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.header
+{
+
+background:#fcf802;
+height:70px;
+}
+
+
+
+
+.logo
+{
+padding: 4px 0px 0px 40vw;
+font-family: 'Staatliches', cursive;
+font-size:45px;
+color:rgb(253, 253, 253);
+margin:15px;
+background-image: url('../images/noslifactory-r4i36eR4g_g-unsplash.jpg');
+
+}
+
+
+.btn-success
+{
+    background-color: rgb(6, 101, 245);
+}
+
+.btn-success:hover{
+opacity: 2;
+transform:scale(1.1);
+}
+
+
+
+.title{
+    margin: 0 auto;
+    width:100%;
+    max-width: 40rem;
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.row{
+    margin-top: 5rem;
+}
+.btn{
+    margin-bottom: 7px;
+}
+.col-md-6 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.card{
+    width: 90%;
+    max-width: 300px;
+    background-image: url('../images/bg2.jpg');
+   
+        border: 1px solid transparent;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+    border-top-color: rgba(225,225, 225, 0.1);
+    border-bottom-color: rgba(225,225, 225, 0.1);
+    border-left-color: rgba(225,225, 225, 0.1);
+    border-right-color: rgba(225,225, 225, 0.1);
+
+
+}
+
+
+
+.cb1{
+    background-color: linear-gradient(to right bottom,rgba(225,225, 225, 0.5),rgba(225,225, 225, 0.3));
+}
+
+
+

@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+background-image: url('../images/gulfer-ergin-LUGuCtvlk1Q-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#success {
+    display: none;
+}
+
+#danger{
+    display: none;
+}
+
+body{
+    background-color:rgb(104, 100, 100);
+}
+
+.row{
+    margin-top: 1vh;
+}
+
+#register{
+    background-image: url('../images/bg2.jpg');
+    
+    /* background-color: rgb(255, 255, 133); */
+    min-height: 500px;
+    border-radius: 31px;
+}
+label{
+    margin-top: 1.5vh;
+}
+
+button.btn.btn-info {
+    margin-bottom: 2vh;
+}
+.registration{
+    margin-top: 3vh;
+    font-size: 45px; 
+    font-family: initial;  
+ 
+}
+
+.btn.btn-success{
+    border-radius: 10px 100px / 120px;
+}
+
+.fact
+{
+    padding: 12px 90px 0px 0px;
+}
